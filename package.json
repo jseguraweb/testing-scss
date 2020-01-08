@@ -1,0 +1,23 @@
+{
+  "name": "testing-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jseguraweb/testing-scss.git"
+  },
+  "author": "Jaime Segura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jseguraweb/testing-scss/issues"
+  },
+  "homepage": "https://github.com/jseguraweb/testing-scss#readme",
+  "devDependencies": {
+    "dart-sass": "^1.24.3"
+  }
+}
