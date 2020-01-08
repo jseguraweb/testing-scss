@@ -1,5 +1,16 @@
 $brand-color: rgb(245, 220, 82);
+$brand-font-family: serif;
+$font-size-md: 2 ; // em
+$font-size-sm: 1.5; // em
 
 h1 {
     color: $brand-color;
+    font-family: $brand-font-family;
+    font-size: $font-size-md + em;
+}
+
+h2{
+    font-family: $brand-font-family;
+    font-size: $font-size-sm + em;
+
 }
